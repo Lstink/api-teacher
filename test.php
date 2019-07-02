@@ -33,7 +33,7 @@ curl_setopt_array($ch, [
 
 	// https请求，
 	CURLOPT_SSL_VERIFYPEER => false, // 是否验证对等的两端
-	CURLOPT_SSL_VERIFYHOST => false  // 是否验证主机
+	CURLOPT_SSL_VERIFYHOST => false,  // 是否验证主机
 
 	// 设置header
 	CURLOPT_HTTPHEADER => [
